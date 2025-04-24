@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import DataTable from "react-data-table-component";
 import { useDispatch, useSelector } from "react-redux";
@@ -11,7 +11,7 @@ const BlogCategory = () => {
     const { blogcategories, loading } = useSelector((state) => state.blogCategory);
 
     // Fetch categories on component mount
-    React.useEffect(() => {
+    useEffectt(() => {
         dispatch(fetchBlogCategories());
     }, [dispatch]);
 
