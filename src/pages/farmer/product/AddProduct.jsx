@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addProduct, resetAddProductState } from "../../../redux/slices/productSlice";
 import { fetchCategories } from "../../../redux/slices/categorySlice"; // Assuming you have this slice

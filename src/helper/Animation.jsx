@@ -1,6 +1,6 @@
 
 import Aos from "aos";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
 
 const Animation = () => {
